@@ -66,3 +66,7 @@ numberedSubtitles = true
   whatsapp = false
   hackernews = false
   telegram = false
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
