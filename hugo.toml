@@ -19,9 +19,9 @@ hasCJKLanguage = true
   toc = true
   math = true
   
-  # This section fixes the "can't evaluate field Author" error
   [params.author]
     name = "Yi Cai"
+    email = "Yi.Cai@gmail.com"
 
   # Theme-specific CSS overrides
   custom_css = ["css/color.css"]

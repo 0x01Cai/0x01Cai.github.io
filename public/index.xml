@@ -5,6 +5,8 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on Yi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <managingEditor>Yi.Cai@gmail.com (Yi Cai)</managingEditor>
+    <webMaster>Yi.Cai@gmail.com (Yi Cai)</webMaster><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
