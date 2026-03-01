@@ -13,25 +13,28 @@ hasCJKLanguage = true
   category = "categories"
 
 [params]
+  # --- General Site Settings ---
   title = "Yi's Blog"
-  description = "Hello World! -Yi"
+  description = "Hi, I am Yi. This is a collection of my quiet personal notes. Professional by day; curious student of computer science by night."
   dateFormat = "2 January 2006"
   toc = true
   math = true
   
+  # --- THE BRIDGE: Keep this ABOVE the [params.author] block ---
+  customCSS = ["css/color.css"]
+
+  # --- Author Information ---
   [params.author]
     name = "Yi Cai"
     email = "Yi.Cai@gmail.com"
 
-  # Theme-specific CSS overrides
-  custom_css = ["css/color.css"]
-  customCSS = ["css/color.css"]
-
+  # --- Footer and Credits ---
   footnote = """
 Powered by <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> | 
 Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
 """
 
+  # --- Comment Section (Giscus) ---
   [params.commentEngine]
     code = """
     <script src="https://giscus.app/client.js"
@@ -40,12 +43,16 @@ Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_b
         data-category="General"
         data-category-id="DIC_..."
         data-mapping="pathname"
-        data-theme="gruvbox"
+        data-theme="light"
         data-lang="en"
         crossorigin="anonymous"
         async>
     </script>
     """
+
+  # --- Disable BuyMeACoffee ---
+  [params.buymeacoffee]
+    code = ""
 
 [caches]
   [caches.images]
